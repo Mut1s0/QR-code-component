@@ -12,6 +12,22 @@
     /* Typography */
     --fs-paragraph: 15px;
 
+    --font-family: 'Outfit', sans-serif;
+
     --fw-regular: 400;
     --fw-bold: 700;
+}
+
+main > div {
+    background-color: var(--white);
+}
+
+.title {
+    color: var(--dark-blue);
+    font-weight: var(--fw-bold);
+}
+
+.title-sub {
+    color: var(--grayish-blue);
+    font-weight: var(--fw-regular);
 }
